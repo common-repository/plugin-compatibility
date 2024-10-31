@@ -1,0 +1,337 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.wpcompatible .logo_button img {
+  width: 550px;
+  display: block;
+  max-width: 100%;
+}
+
+.wpcompatible .logo_button {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.wpcompatible .logo_button a {
+  display: inline-block;
+}
+
+.wpcompatible .green {
+  color: green;
+}
+
+.wpcompatible .orange {
+  color: orange;
+  font-weight: bold;
+}
+
+.wpcompatible .red {
+  color: red;
+  font-weight: bold;
+}
+
+.wpcompatible .hidden {
+  display: none;
+}
+
+.wpcompatible .postbox-header {
+  padding-left: 12px;
+}
+
+.wpcompatible .no-bottom {
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+.wpcompatible .run_button {
+  text-align: center;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.wpcompatible table.wp-list-table th {
+  font-weight: bold;
+}
+
+.wpcompatible .slogan {
+  text-align: center;
+  color: #051441;
+  margin-bottom: 40px;
+}
+
+.wpcompatible .slogan h1 {
+  font-size: 46px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: -0.8px;
+  margin-bottom: 15px;
+}
+
+.wpcompatible .wpcompatible-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.wpcompatible .wpcompatible-row > [class*='wpcompatible-col'] {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-s150 {
+  min-width: 200px;
+  flex: 2 1;
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-1 {
+  -webkit-flex: 0 0 calc(100% / 12 * 1);
+  flex: 0 0 calc(100% / 12 * 1);
+  max-width: calc(100% / 12 * 1);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-2 {
+  -webkit-flex: 0 0 calc(100% / 12 * 2);
+  flex: 0 0 calc(100% / 12 * 2);
+  max-width: calc(100% / 12 * 2);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-3 {
+  -webkit-flex: 0 0 calc(100% / 12 * 3);
+  flex: 0 0 calc(100% / 12 * 3);
+  max-width: calc(100% / 12 * 3);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-4 {
+  -webkit-flex: 0 0 calc(100% / 12 * 4);
+  flex: 0 0 calc(100% / 12 * 4);
+  max-width: calc(100% / 12 * 4);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-5 {
+  -webkit-flex: 0 0 calc(100% / 12 * 5);
+  flex: 0 0 calc(100% / 12 * 5);
+  max-width: calc(100% / 12 * 5);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-6 {
+  -webkit-flex: 0 0 calc(100% / 12 * 6);
+  flex: 0 0 calc(100% / 12 * 6);
+  max-width: calc(100% / 12 * 6);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-7 {
+  -webkit-flex: 0 0 calc(100% / 12 * 7);
+  flex: 0 0 calc(100% / 12 * 7);
+  max-width: calc(100% / 12 * 7);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-8 {
+  -webkit-flex: 0 0 calc(100% / 12 * 8);
+  flex: 0 0 calc(100% / 12 * 8);
+  max-width: calc(100% / 12 * 8);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-9 {
+  -webkit-flex: 0 0 calc(100% / 12 * 9);
+  flex: 0 0 calc(100% / 12 * 9);
+  max-width: calc(100% / 12 * 9);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-10 {
+  -webkit-flex: 0 0 calc(100% / 12 * 10);
+  flex: 0 0 calc(100% / 12 * 10);
+  max-width: calc(100% / 12 * 10);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-11 {
+  -webkit-flex: 0 0 calc(100% / 12 * 11);
+  flex: 0 0 calc(100% / 12 * 11);
+  max-width: calc(100% / 12 * 11);
+}
+
+.wpcompatible .wpcompatible-row .wpcompatible-col-12 {
+  -webkit-flex: 0 0 calc(100% / 12 * 12);
+  flex: 0 0 calc(100% / 12 * 12);
+  max-width: calc(100% / 12 * 12);
+}
+
+@media (min-width: 992px) {
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-1 {
+    -webkit-flex: 0 0 calc(100% / 12 * 1);
+    flex: 0 0 calc(100% / 12 * 1);
+    max-width: calc(100% / 12 * 1);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-2 {
+    -webkit-flex: 0 0 calc(100% / 12 * 2);
+    flex: 0 0 calc(100% / 12 * 2);
+    max-width: calc(100% / 12 * 2);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-3 {
+    -webkit-flex: 0 0 calc(100% / 12 * 3);
+    flex: 0 0 calc(100% / 12 * 3);
+    max-width: calc(100% / 12 * 3);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-4 {
+    -webkit-flex: 0 0 calc(100% / 12 * 4);
+    flex: 0 0 calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-5 {
+    -webkit-flex: 0 0 calc(100% / 12 * 5);
+    flex: 0 0 calc(100% / 12 * 5);
+    max-width: calc(100% / 12 * 5);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-6 {
+    -webkit-flex: 0 0 calc(100% / 12 * 6);
+    flex: 0 0 calc(100% / 12 * 6);
+    max-width: calc(100% / 12 * 6);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-7 {
+    -webkit-flex: 0 0 calc(100% / 12 * 7);
+    flex: 0 0 calc(100% / 12 * 7);
+    max-width: calc(100% / 12 * 7);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-8 {
+    -webkit-flex: 0 0 calc(100% / 12 * 8);
+    flex: 0 0 calc(100% / 12 * 8);
+    max-width: calc(100% / 12 * 8);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-9 {
+    -webkit-flex: 0 0 calc(100% / 12 * 9);
+    flex: 0 0 calc(100% / 12 * 9);
+    max-width: calc(100% / 12 * 9);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-10 {
+    -webkit-flex: 0 0 calc(100% / 12 * 10);
+    flex: 0 0 calc(100% / 12 * 10);
+    max-width: calc(100% / 12 * 10);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-11 {
+    -webkit-flex: 0 0 calc(100% / 12 * 11);
+    flex: 0 0 calc(100% / 12 * 11);
+    max-width: calc(100% / 12 * 11);
+  }
+  .wpcompatible .wpcompatible-row .wpcompatible-col-md-12 {
+    -webkit-flex: 0 0 calc(100% / 12 * 12);
+    flex: 0 0 calc(100% / 12 * 12);
+    max-width: calc(100% / 12 * 12);
+  }
+}
+
+.wpcompatible .form {
+  margin-bottom: 50px;
+}
+
+.wpcompatible form {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.wpcompatible form .wpcompatible-row select,
+.wpcompatible form .wpcompatible-row input,
+.wpcompatible form .wpcompatible-row button {
+  margin-bottom: 15px;
+}
+
+.wpcompatible form .wpcompatible-row select,
+.wpcompatible form .wpcompatible-row input,
+.wpcompatible form .wpcompatible-row button,
+.wpcompatible form .wpcompatible-row a {
+  transition: all .15s;
+}
+
+.wpcompatible form .wpcompatible-row select,
+.wpcompatible form .wpcompatible-row input {
+  -webkit-appearance: none;
+  background-color: #fff;
+  border: 1px solid #d1d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: inherit;
+  height: 38px;
+  padding: 10px 6px;
+  width: 100%;
+  line-height: 1;
+}
+
+.wpcompatible form .wpcompatible-row select:focus,
+.wpcompatible form .wpcompatible-row input:focus {
+  border-color: #2AA9E0;
+  outline: 0;
+}
+
+.wpcompatible form .wpcompatible-row select:focus {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%232AA9E0" d="M0,0l6,8l6-8"/></svg>');
+}
+
+.wpcompatible form .wpcompatible-row select {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23d1d1d1" d="M0,0l6,8l6-8"/></svg>') center right no-repeat;
+}
+
+.wpcompatible form .wpcompatible-row .button,
+.wpcompatible form .wpcompatible-row button,
+.wpcompatible form .wpcompatible-row input[type="button"],
+.wpcompatible form .wpcompatible-row input[type="reset"],
+.wpcompatible form .wpcompatible-row input[type="submit"] {
+  background-color: #2AA9E0;
+  border: 1px solid #2AA9E0;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  height: 38px;
+  padding: 10px 6px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.wpcompatible form .wpcompatible-row .button:hover,
+.wpcompatible form .wpcompatible-row button:hover,
+.wpcompatible form .wpcompatible-row input[type="button"]:hover,
+.wpcompatible form .wpcompatible-row input[type="reset"]:hover,
+.wpcompatible form .wpcompatible-row input[type="submit"]:hover {
+  background-color: #606c76;
+  border-color: #606c76;
+  outline: 0;
+}
+
+.wpcompatible .plugins-cloud {
+  margin: 0 -5px;
+  text-align: center;
+}
+
+.wpcompatible .plugins-cloud .plugin_select {
+  background-color: #2AA9E0;
+  border: 1px solid #2AA9E0;
+  border-radius: 25px;
+  display: inline-block;
+  margin: 5px 5px;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 14px;
+}
+
+.wpcompatible .plugins-cloud .plugin_select:hover {
+  background-color: #606c76;
+  border-color: #606c76;
+  outline: 0;
+}

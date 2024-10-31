@@ -1,0 +1,227 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+.wpcompatible {
+    .logo_button img {
+        width: 550px;
+        display: block;
+        max-width: 100%;
+    }
+
+    .logo_button {
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+
+        a {
+            display: inline-block;
+        }
+    }
+
+    .green {
+        color: green;
+    }
+
+    .orange {
+        color: orange;
+        font-weight: bold;
+    }
+
+    .red {
+        color: red;
+        font-weight: bold;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .postbox-header {
+        padding-left: 12px;
+    }
+
+    .no-bottom {
+        margin-bottom: 0px;
+        border-bottom: 0px;
+    }
+
+    .run_button {
+        text-align: center;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    table.wp-list-table th {
+        font-weight: bold;
+    }
+
+    .slogan {
+        text-align: center;
+        color: #051441;
+        margin-bottom: 40px;
+
+        h1 {
+            font-size: 46px;
+            line-height: 1.2;
+            font-weight: 300;
+            letter-spacing: -0.8px;
+            margin-bottom: 15px;
+        }
+    }
+
+
+    .wpcompatible-row {
+        & {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        &>[class*='wpcompatible-col'] {
+            position: relative;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            box-sizing: border-box;
+        }
+
+        .wpcompatible-col-auto {
+            flex: 0 0 auto;
+            width: auto;
+            max-width: 100%;
+        }
+
+        .wpcompatible-col-s150 {
+            min-width: 200px;
+            flex: 2 1;
+        }
+
+        @for $i from 1 through 12 {
+            .wpcompatible-col-#{$i} {
+                -webkit-flex: 0 0 calc(100% / 12 * #{$i});
+                flex: 0 0 calc(100% / 12 * #{$i});
+                max-width: calc(100% / 12 * #{$i});
+            }
+        }
+
+        @media (min-width:992px) {
+            @for $i from 1 through 12 {
+                .wpcompatible-col-md-#{$i} {
+                    -webkit-flex: 0 0 calc(100% / 12 * #{$i});
+                    flex: 0 0 calc(100% / 12 * #{$i});
+                    max-width: calc(100% / 12 * #{$i});
+                }
+            }
+        }
+    }
+
+    .form {
+        margin-bottom: 50px;
+    }
+
+    form {
+        max-width: 1100px;
+        margin: 0 auto;
+
+
+        .wpcompatible-row {
+
+            select,
+            input,
+            button {
+                margin-bottom: 15px;
+            }
+
+            select,
+            input,
+            button,
+            a {
+                transition: all .15s;
+            }
+
+            select,
+            input {
+                -webkit-appearance: none;
+                background-color: #fff;
+                border: 1px solid #d1d1d1d1;
+                border-radius: 4px;
+                box-shadow: none;
+                box-sizing: inherit;
+                height: 38px;
+                padding: 10px 6px;
+                width: 100%;
+                line-height: 1;
+
+                &:focus {
+                    border-color: #2AA9E0;
+                    outline: 0;
+                }
+            }
+
+            select:focus {
+                background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%232AA9E0" d="M0,0l6,8l6-8"/></svg>');
+            }
+
+            select {
+                background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23d1d1d1" d="M0,0l6,8l6-8"/></svg>') center right no-repeat;
+            }
+
+            .button,
+            button,
+            input[type="button"],
+            input[type="reset"],
+            input[type="submit"] {
+                background-color: #2AA9E0;
+                border: 1px solid #2AA9E0;
+                border-radius: 4px;
+                color: #fff;
+                cursor: pointer;
+                display: inline-block;
+                font-size: 11px;
+                font-weight: 700;
+                height: 38px;
+                padding: 10px 6px;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                white-space: nowrap;
+                width: 100%;
+
+                &:hover {
+                    background-color: #606c76;
+                    border-color: #606c76;
+                    outline: 0;
+                }
+            }
+        }
+    }
+
+    .plugins-cloud {
+        margin: 0 -5px;
+        text-align: center;
+
+        .plugin_select {
+            background-color: #2AA9E0;
+            border: 1px solid #2AA9E0;
+            border-radius: 25px;
+            display: inline-block;
+            margin: 5px 5px;
+            text-decoration: none;
+            color: #fff;
+            padding: 8px 14px;
+
+            &:hover {
+                background-color: #606c76;
+                border-color: #606c76;
+                outline: 0;
+            }
+        }
+    }
+
+}
